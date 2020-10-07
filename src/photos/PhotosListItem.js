@@ -5,7 +5,7 @@ export const PhotosListItem = ({ photo }) => {
     return (
         <Link to={`/photos/${photo._id}`}>
             <div className="photos-list-item-wrap">
-                <img className="photos-list-item" src={'/images' + photo.url} height="200" width="200" />
+                <img className="photos-list-item" src={photo.url} height="200" width="200" />
             </div>
         </Link>
     );

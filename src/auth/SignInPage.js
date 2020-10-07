@@ -23,7 +23,7 @@ export const SignInPage = () => {
             <div className="centered-container space-before">
                 <h1>Sign In</h1>
                 {signInError
-                    ? <div><p className="sign-in-error">{signInError}</p></div>
+                    ? <div><p className="error-message">{signInError}</p></div>
                     : null}
                 <input
                     type="text"
